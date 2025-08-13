@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "edX adblock",
+    "version": "1.0",
+    "description": "Hide unwanted edX ads and poppups for upgrade",
+    "permissions": ["storage"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.edx.org/course*"],
+        "js": ["scripts/content.js"]
+      }
+    ]
+  }
