@@ -3,7 +3,7 @@
 const adblockToggle = document.getElementById('adblockToggle');
 const refreshButton = document.getElementById('refresh-btn');
 
-let adblockEnabled = false;
+let adblockEnabled = true;
 
 // Initialize popup
 document.addEventListener('DOMContentLoaded', async () => {
