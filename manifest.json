@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "edX Adblock",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Hide unwanted edX ads and popups for upgrade",
   "permissions": [
     "storage", "activeTab"
